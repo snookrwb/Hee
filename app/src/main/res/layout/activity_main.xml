@@ -1,0 +1,173 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txvResult1"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="86dp"
+        android:gravity="left"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txvResult2"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/txvResult1"
+        android:gravity="left"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="normal" />
+
+
+    <TextView
+        android:id="@+id/txvResult3"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnspeak1"
+        android:gravity="left"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txvResult4"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txvResult2"
+        android:layout_below="@+id/btnspeak1"
+        android:gravity="left"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txvResult5"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnspeak3"
+        android:gravity="left"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txvResult6"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txvResult2"
+        android:layout_below="@+id/btnspeak3"
+        android:gravity="left"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txvResult7"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnspeak5"
+        android:gravity="left"
+        android:textColor="#000"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/txvResult8"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txvResult2"
+        android:layout_below="@+id/btnspeak5"
+        android:textColor="#000"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/btnspeak1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txvResult1"
+        android:text="กำหนดคำสั่งที่1" />
+
+    <Button
+        android:id="@+id/btnspeak2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txvResult2"
+        android:layout_below="@+id/txvResult1"
+        android:text="สั่งทำงานคำสั่งที่1" />
+
+    <Button
+        android:id="@+id/btnspeak3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txvResult3"
+        android:text="กำหนดคำสั่งที่2" />
+
+
+    <Button
+        android:id="@+id/btnspeak4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txvResult2"
+        android:layout_below="@+id/txvResult3"
+        android:text="สั่งทำงานคำสั่งที่2" />
+
+
+    <Button
+        android:id="@+id/btnspeak5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txvResult5"
+        android:text="กำหนดคำสั่งที่3" />
+
+    <Button
+        android:id="@+id/btnspeak6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txvResult2"
+        android:layout_below="@+id/txvResult5"
+        android:text="สั่งทำงานคำสั่งที่3" />
+
+    <Button
+        android:id="@+id/btnspeak7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txvResult7"
+        android:text="กำหนดคำสั่งที่4" />
+
+    <Button
+        android:id="@+id/btnspeak8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txvResult2"
+        android:layout_below="@+id/txvResult7"
+        android:text="สั่งทำงานคำสั่งที่4" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="188dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="NEX"
+        android:textColor="#000"
+        android:textSize="36sp" />
+
+
+</RelativeLayout>
